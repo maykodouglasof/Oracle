@@ -1,17 +1,17 @@
 <?php 
 // Usuário do banco oracle.
-$oracle_usuario = "dthrpyc"; 
+$oracle_usuario = "system"; 
 //Senha do usuário no banco de dados.
-$oracle_senha = "ddrrttg"; 
+$oracle_senha = "06751442564"; 
 
 
 $oracle_bd = "(DESCRIPTION=
           (ADDRESS_LIST=
             (ADDRESS=(PROTOCOL=TCP) 
-              (HOST=g300603sv03p)(PORT=1521)
+              (HOST=localhost)(PORT=1521)
             )
           )
-          (CONNECT_DATA=(SERVICE_NAME=TOTVSBRP))
+          (CONNECT_DATA=(SERVICE_NAME=XE))
      )"; 
 
 // Aqui, nós validamos se a conexão foi feita com sucesso ou não.
